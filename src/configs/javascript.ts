@@ -74,6 +74,7 @@ export const javascript: TSESLint.FlatConfig.ConfigArray = [
           overrides: {
             "?": "before",
             ":": "before",
+            "|": "before",
           },
         },
       ],
