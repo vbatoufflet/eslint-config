@@ -4,13 +4,31 @@
   "description": "Reusable ESLint configuration with JavaScript and TypeScript support",
   "license": "MIT",
   "author": "Vincent Batoufflet <vincent@batou.dev>",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-flat-config",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbatoufflet/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vbatoufflet/eslint-config/issues"
+  },
+  "homepage": "https://github.com/vbatoufflet/eslint-config#readme",
   "files": [
     "dist/",
     "CHANGELOG.md",
     "README.md"
   ],
+  "types": "./dist/index.d.ts",
   "exports": {
-    ".": "./dist/index.js",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
     "./package.json": "./package.json"
   },
   "type": "module",
