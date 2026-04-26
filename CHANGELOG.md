@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1 - 2026-04-26
+
+* Fix missing `@eslint/js` peer dependency declaration
+
 ## 0.2.0 - 2026-04-26
 
 * Update dependencies and peer dependencies to their latest major versions
