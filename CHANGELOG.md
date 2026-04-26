@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.0 - 2026-04-26
+
+* Update dependencies and peer dependencies to their latest major versions
+* Add TypeScript 6 compatibility for declaration builds and typed linting
+
 ## 0.1.1 - 2025-08-25
 
 * Handle pipe override in `@stylistic/operator-linebreak` rule
