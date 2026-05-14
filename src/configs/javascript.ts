@@ -10,8 +10,20 @@ export const javascript: TSESLint.FlatConfig.ConfigArray = [
       "curly": ["error", "all"],
       "default-case-last": "error",
       "eqeqeq": ["error", "always"],
+      "max-len": [
+        "error",
+        {
+          code: 110,
+        },
+      ],
       "new-cap": "error",
       "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
+      "no-duplicate-imports": [
+        "error",
+        {
+          allowSeparateTypeImports: false,
+        },
+      ],
       "no-empty": [
         "error",
         {
@@ -43,6 +55,7 @@ export const javascript: TSESLint.FlatConfig.ConfigArray = [
         },
       ],
       "perfectionist/sort-interfaces": "off",
+      "perfectionist/sort-modules": "off",
       "perfectionist/sort-object-types": "off",
       "perfectionist/sort-objects": "off",
       "perfectionist/sort-variable-declarations": "off",

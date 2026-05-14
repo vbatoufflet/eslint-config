@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+* Enforce inline type imports with `@typescript-eslint/consistent-type-imports`
+* Tighten `@typescript-eslint/no-use-before-define` from warning to error with
+  explicit options
+* Add duplicate import and max line length rules to the JavaScript config
+* Disable `perfectionist/sort-modules`
+
 ## 0.2.1 - 2026-04-26
 
 * Fix missing `@eslint/js` peer dependency declaration

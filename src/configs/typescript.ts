@@ -8,6 +8,7 @@ const commonRules: TSESLint.FlatConfig.ConfigArray = [
         "error",
         {
           fixStyle: "inline-type-imports",
+          prefer: "type-imports",
         },
       ],
       "@typescript-eslint/method-signature-style": ["error", "method"],
@@ -29,8 +30,14 @@ const commonRules: TSESLint.FlatConfig.ConfigArray = [
       ],
       "no-use-before-define": "off",
       "@typescript-eslint/no-use-before-define": [
-        "warn",
+        "error",
         {
+          functions: false,
+          classes: true,
+          variables: true,
+          allowNamedExports: true,
+          enums: true,
+          typedefs: false,
           ignoreTypeReferences: true,
         },
       ],
