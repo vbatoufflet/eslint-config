@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.3.0 - 2026-07-18
 
 * Enforce inline type imports with `@typescript-eslint/consistent-type-imports`
 * Tighten `@typescript-eslint/no-use-before-define` from warning to error with
