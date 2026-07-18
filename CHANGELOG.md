@@ -7,6 +7,8 @@
   explicit options
 * Add duplicate import and max line length rules to the JavaScript config
 * Disable `perfectionist/sort-modules`
+* Broaden peer dependency support to compatible ESLint 9 and TypeScript 5.8
+  releases
 
 ## 0.2.1 - 2026-04-26
 
